@@ -29,15 +29,15 @@ int main (){
      média = r / 4;
 
      if( média  >= 7){
-        printf("%s, você foi aprovado, sua nota é %.2f \n",nome_completo, média);
+        printf("%s você foi aprovado, sua nota é %.2f \n",nome_completo, média);
      }
 
      else if( média  <= 4){
-        printf("%s, você foi reprovado, sua nota é %f \n",nome_completo, média);
+        printf("%s, você foi reprovado, sua nota é %.2f \n",nome_completo, média);
      }
 
     else{
-        printf(" %s você está de recuperacão, sua nota é %f\n",nome_completo, média);
+        printf(" %s você está de recuperacão, sua nota é %.2f\n",nome_completo, média);
     }
     return 0;
 
